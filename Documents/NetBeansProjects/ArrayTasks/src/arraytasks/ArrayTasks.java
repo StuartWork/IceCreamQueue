@@ -28,6 +28,16 @@ public class ArrayTasks {
         System.out.println("Grades arry:");
         displayCharArray(studentGrade);
         
+        char [] newStudentGrade = new char[gradeArraySize];
+        
+        System.arraycopy(studentGrade, 0, newStudentGrade, 0, 2);
+        newStudentGrade[2] = 'C';
+        System.arraycopy(studentGrade, 2, newStudentGrade, 3, 2);
+        
+        System.out.println("Correct grade array:");
+        displayCharArray(newStudentGrade);        
+
+        
     }
     
 }
