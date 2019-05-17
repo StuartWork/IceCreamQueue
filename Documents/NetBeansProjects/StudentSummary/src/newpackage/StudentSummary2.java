@@ -41,9 +41,52 @@ public class StudentSummary2 {
         
         outputgrades();
         
-        System.outf()
+        System.out.printf("\n%s %d\n%s %d\n\n",
+                "Lowest grade is", getMinimum(),
+                "Highest grade is", getMaximum());
+        
+        outputBarChart();
         
     }
+    
+    public int getMinimum(){
+        
+        int lowGrade = grades[0][0];
+        
+        for (int studentGrades[] : grades){
+            
+            for (int grade : studentGrades){
+                
+                if (grade < lowGrade)
+                    lowGrade = grade;
+            
+            }
+            
+        }
+        
+        return lowGrade;
+        
+    }
+    
+    public int getMaximum(){
+        
+        int highGrade = grades[0][0];
+        
+        for (int studentGrades[] : grades){
+            
+            for (int grade : studentGrades){
+                
+                if (grade > highGrade)
+                    highGrade = grade;
+            
+            }
+            
+        }
+        
+        return highGrade;
+        
+    }
+    
     
     
 }
