@@ -15,4 +15,19 @@ public class Person {
     private String name;
     private String weight;
     
+    public Person(String id, String name, String weight){
+        
+        this.id = id;
+        this.name = name;
+        this.weight = weight;
+    
+    }
+    
+    @Override
+    public String toString(){
+        
+        return "Person Information:\nID:" + id + "\nName:" + name + "\nWeight:" + weight;
+    
+    }
+    
 }
