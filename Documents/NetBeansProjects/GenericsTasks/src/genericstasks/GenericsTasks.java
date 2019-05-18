@@ -12,6 +12,8 @@ import java.util.ArrayList;
 public class GenericsTasks {
     
     public static ArrayList<StudyCourse> courses = new ArrayList<>();
+    public static ArrayList<Employee> salesEmpList = new ArrayList<>();
+    public static ArrayList<Employee> marketingList = new ArrayList<>();
 
     /**
      * @param args the command line arguments
@@ -38,7 +40,34 @@ public class GenericsTasks {
         
         for (StudyCourse sc: courses)
             System.out.println(sc);
-    
+        
+        Employee emp1 = new Employee(1, "Bob Jones", "Sales", 60000);
+        Employee emp2 = new Employee(2, "Sue Jamies", "Sales", 70000);
+        Employee emp3 = new Employee(3, "Luke Drongool", "Sales", 100000);
+        Employee emp4 = new Employee("1M", "Emma Perri", "Marketing", 90000);
+        Employee emp5 = new Employee("2M", "katy Park", "Marketing", 95000);
+        Employee emp6 = new Employee("3M", "David Shell", "Marketing", 190000);
+        
+        salesEmpList.add(emp1);
+        salesEmpList.add(emp2);
+        salesEmpList.add(emp3);
+        marketingList.add(emp4);
+        marketingList.add(emp5);
+        marketingList.add(emp6);
+        
+        System.out.println("\nSales Department Staff:");
+        for (Employee e: salesEmpList){
+            
+            System.out.println(e);
+        
+        }
+        System.out.println("\nMarketing Department Staff:");
+        for (Employee m: marketingList){
+            
+            System.out.println(m);
+        
+        }
+            
     }
     
 }
