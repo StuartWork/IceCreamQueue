@@ -37,7 +37,7 @@ public class EliminateDuplicates {
     public static <E extends Comparable<E>> ArrayList<E> removeDups(ArrayList<E> list){
         
         boolean found = false;
-        if (list.size()==0)
+        if (list.isEmpty())
             return list;
         ArrayList<E> newList = new ArrayList<>();
         newList.add(list.get(0));
