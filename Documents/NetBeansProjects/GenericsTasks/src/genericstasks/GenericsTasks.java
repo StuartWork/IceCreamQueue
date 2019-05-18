@@ -25,6 +25,7 @@ public class GenericsTasks {
         StudyCourse course5 = new StudyCourse("C101", "Computers", "$1100.00");
         StudyCourse course6 = new StudyCourse("LS101", "Life Skills", "$500.00");
         StudyCourse course7 = new StudyCourse("MW101", "Metal Work", "$2250.00");
+        //StudyCourse course8 = new StudyCourse("mathmatics");
         
         courses.add(course1);
         courses.add(course2);
@@ -33,6 +34,7 @@ public class GenericsTasks {
         courses.add(course5);
         courses.add(course6);
         courses.add(course7);
+        //courses.add("mathmatics");
         
         for (StudyCourse sc: courses)
             System.out.println(sc);
