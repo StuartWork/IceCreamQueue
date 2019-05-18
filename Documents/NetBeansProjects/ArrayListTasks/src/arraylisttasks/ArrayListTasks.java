@@ -16,10 +16,12 @@ public class ArrayListTasks {
     
     public static void main(String[] args){
         
-        shoppingList.add();
-        shoppingList.add();
-        shoppingList.add();
-        shoppingList.add();
+        shoppingList.add("juice");
+        shoppingList.add("bread");
+        shoppingList.add("butter");
+        shoppingList.add("cheese");
+        
+        printShoppingList(shoppingList);
     
     }
     
