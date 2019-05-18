@@ -22,6 +22,15 @@ public class ArrayListTasks {
         shoppingList.add("cheese");
         
         printShoppingList(shoppingList);
+        
+        shoppingList.add("bacon");
+        shoppingList.add("eggs");
+        shoppingList.add("tomatoes");
+        shoppingList.add("pepper");
+        shoppingList.add("salt");
+        shoppingList.add("milk");
+        
+        printShoppingList(shoppingList);
     
     }
     
