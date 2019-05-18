@@ -13,6 +13,7 @@ import java.util.ArrayList;
 public class ArrayListTasks {
     
     public static ArrayList shoppingList = new ArrayList();
+    public static ArrayList personArrayList = new ArrayList();
     
     public static void main(String[] args){
         
@@ -31,6 +32,20 @@ public class ArrayListTasks {
         shoppingList.add("milk");
         
         printShoppingList(shoppingList);
+        
+        shoppingList.remove("bread");
+        shoppingList.remove("butter");
+        
+        printShoppingList(shoppingList);
+        
+        personArrayList.add("007");
+        personArrayList.add("Stuart Work");
+        personArrayList.add("93KG");
+        
+        Person person1 = new Person(personArrayList.get(0).toString(),
+        personArrayList.get(1).toString(),personArrayList.get(2).toString());
+        
+        System.out.println(person1);
     
     }
     
