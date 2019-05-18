@@ -27,6 +27,7 @@ public class EliminateDuplicates {
         list.add("ice-cream");
         list.add("bacon");
         list.add("coffee");
+        
         ArrayList<String> elidups = removeDups(list);
         
         System.out.println(list);
