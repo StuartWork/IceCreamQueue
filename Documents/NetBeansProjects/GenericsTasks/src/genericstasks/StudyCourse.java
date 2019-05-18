@@ -23,9 +23,10 @@ public class StudyCourse {
     
     }
     
-    public String toSting(){
+    @Override
+    public String toString(){
         
-        return "Course Information:\nID: " + courseId + "\nName: " + courseName + "\nCost: " +courseCost;
+        return "Course Information:\nID: " + courseId + "\nName: " + courseName + "\nCost: " + courseCost;
     
     }
     
