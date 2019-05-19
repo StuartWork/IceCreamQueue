@@ -66,6 +66,22 @@ public class CollectionInterfaceTask {
         for (Object o:myLinkedList){
             System.out.println(o);
         }
+        
+        myArrayList.remove(2.72);
+        myArrayList.remove(1.13);
+        
+        myLinkedList.remove(2.72);
+        myLinkedList.remove(1.13);
+        
+        System.out.println("\nNo Array List");
+        for (Object o:myArrayList){
+            System.out.println(o);
+        }
+            
+        System.out.println("\nNo Linked List");
+        for (Object o:myLinkedList){
+            System.out.println(o);
+        }
 
         // TODO code application logic here
     }
