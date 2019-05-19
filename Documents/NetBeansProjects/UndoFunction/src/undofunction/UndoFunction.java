@@ -31,6 +31,7 @@ public class UndoFunction {
             }
             else if (input.equals("E")){
                 System.out.println("Bye...");
+                System.exit(0);
             }
             else{
                 System.out.println("That is not a vaild command, you musr use D,U or E");
