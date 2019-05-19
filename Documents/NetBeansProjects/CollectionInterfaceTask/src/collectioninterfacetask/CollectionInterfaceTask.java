@@ -28,6 +28,12 @@ public class CollectionInterfaceTask {
         myLinkedList.add(3.14);
         myLinkedList.add(2.72);
         myLinkedList.add(1.13);
+        
+        System.out.println("Array List");
+        System.out.println(myArrayList);
+        
+        System.out.println("\nLinked List");
+        System.out.println(myLinkedList);
         // TODO code application logic here
     }
     
