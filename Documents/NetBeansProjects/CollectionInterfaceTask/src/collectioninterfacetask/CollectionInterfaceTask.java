@@ -29,12 +29,22 @@ public class CollectionInterfaceTask {
         myLinkedList.add(2.72);
         myLinkedList.add(1.13);
         
-        System.out.println("Array List");
-        System.out.println(myArrayList);
+        System.out.println("Numbers of elements in the Array List: " + myArrayList.size());
+        System.out.println("\nArray List");
+        for (Object o:myArrayList){
+            System.out.println(o);
+        }
         
+        System.out.println("\nNumbers of elements in the Linked List: " + myLinkedList.size());
         System.out.println("\nLinked List");
-        System.out.println(myLinkedList);
+        for (Object o:myLinkedList){
+            System.out.println(o);
+        }
+        
+        System.out.println("\nNumbers of elements in Both Lists: " + (myArrayList.size() + myLinkedList.size()));
         // TODO code application logic here
     }
     
+        
+        
 }
