@@ -41,7 +41,32 @@ public class CollectionInterfaceTask {
             System.out.println(o);
         }
         
-        System.out.println("\nNumbers of elements in Both Lists: " + (myArrayList.size() + myLinkedList.size()));
+        System.out.println("\nNumbers of elements in Both Lists: " + (myArrayList.size() + myLinkedList.size() + "\n"));
+        
+        if (myArrayList.contains(3.14)){
+            System.out.println("Array List contains 3.14, removing it now.");
+            myArrayList.remove(3.14);
+        }
+        else
+            System.out.println("Array List does not contain 3.14");
+        
+        if (myLinkedList.contains(3.14)){
+            System.out.println("Linked List contains 3.14, removing it now.");
+            myLinkedList.remove(3.14);
+        }
+        else
+            System.out.println("Linked List does not contain 3.14");
+        
+        System.out.println("\nNew Array List");
+        for (Object o:myArrayList){
+            System.out.println(o);
+        }
+            
+        System.out.println("\nNew Linked List");
+        for (Object o:myLinkedList){
+            System.out.println(o);
+        }
+
         // TODO code application logic here
     }
     
