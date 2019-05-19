@@ -44,7 +44,7 @@ public class UndoFunction {
             System.out.println("The list is empty, you cannot remove nothing.");
         }
         else{
-            System.out.println(directionList.pop() + "Has been removed.");
+            System.out.println(directionList.pop() + " Has been removed.");
             displayDirections();
         }
     }
