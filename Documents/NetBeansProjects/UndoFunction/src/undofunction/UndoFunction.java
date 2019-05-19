@@ -26,6 +26,15 @@ public class UndoFunction {
             if (input.equals("D")){
                 getDirection();
             }
+            else if (input.equals("U")){
+                removeDirection();
+            }
+            else if (input.equals("E")){
+                System.out.println("Bye...");
+            }
+            else{
+                System.out.println("That is not a vaild command, you musr use D,U or E");
+            }
         }
         // TODO code application logic here
     }
