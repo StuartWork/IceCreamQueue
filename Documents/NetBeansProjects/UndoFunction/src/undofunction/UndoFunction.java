@@ -40,6 +40,13 @@ public class UndoFunction {
         }
     }
     
+    public static void getDirection(){
+        System.out.println("Input the Direction.");
+        input = in.nextLine();
+        directionList.push(input);
+        displayDirections();
+    }
+    
     public static void displayDirections(){
         System.out.println("List of Directions!");
         for (String s: directionList){
