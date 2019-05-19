@@ -25,7 +25,18 @@ public class UndoFunction {
     
     public static void removeDirection(){
         if (directionList.isEmpty()){
-            System.out.println("");
+            System.out.println("The list is empty, you cannot remove nothing.");
+        }
+        else{
+            System.out.println(directionList.pop() + "Has been removed.");
+            displayDirections();
+        }
+    }
+    
+    public static void displayDirections(){
+        System.out.println("List of Directions!");
+        for (String s: directionList){
+            System.out.println(s);
         }
     }
     
