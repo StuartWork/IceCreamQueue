@@ -20,6 +20,13 @@ public class UndoFunction {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        while (true){
+            System.out.println("Press D to enter new direction, U to cancel last entry and E to quit the program");
+            input = in.nextLine();
+            if (input.equals("D")){
+                getDirection();
+            }
+        }
         // TODO code application logic here
     }
     
