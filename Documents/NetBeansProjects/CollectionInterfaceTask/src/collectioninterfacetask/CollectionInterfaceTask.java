@@ -24,6 +24,10 @@ public class CollectionInterfaceTask {
         myArrayList.add(3.14);
         myArrayList.add(2.72);
         myArrayList.add(1.13);
+        
+        myLinkedList.add(3.14);
+        myLinkedList.add(2.72);
+        myLinkedList.add(1.13);
         // TODO code application logic here
     }
     
